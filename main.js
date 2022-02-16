@@ -44,6 +44,6 @@ function LongestWord(sen) {
 
 submitBtn.addEventListener('click', function() {
   const winner = LongestWord(readLine.value);
-  display.innerHTML = (winner);
+  display.innerHTML = `<strong>The largest word is:</strong>  ${(winner)}`;
 });
 
