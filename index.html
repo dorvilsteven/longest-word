@@ -3,13 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="./style.css">
         <title>Longest Word Challenge - Steven Dorvil</title>
     </head>
     <body>
-        <input type="text" placeholder="enter text here" id="readLine" />
-        <button id="submit">Submit</button>
+        <div class="user-input">
+            <input type="text" placeholder="enter text here" id="readLine" class="sentence" />
+            <button id="submit" class="submit-btn">Submit</button>
+        </div>
 
-        <div id="word"></div>
+        <div id="word" class="display-word"></div>
         
         <script src="./main.js"></script>
     </body>

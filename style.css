@@ -1,0 +1,32 @@
+:root {
+    --steel-teal: #5a7d7c;
+    --lavender-web: #dadff7;
+    --gunmetal: #232c33;
+    --dark-sky-blue: #a0c1d1;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--lavender-web);
+    color: var(--gunmetal);
+}
+
+.user-input {
+    text-align: center;
+}
+.user-input input,
+.user-input button {
+    height: 2rem;
+}
+.user-input input {
+    width: 40%;
+}
+
+.display-word {
+    font-size: 2rem;
+}
