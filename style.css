@@ -24,9 +24,11 @@ body {
     height: 2rem;
 }
 .user-input input {
+    margin: 2rem;
     width: 40%;
 }
 
 .display-word {
     font-size: 2rem;
+    text-align: center;
 }
